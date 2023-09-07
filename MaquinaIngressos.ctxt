@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MaquinaIngressos
+comment0.text=\r\n\ MaquinaIngressos\ modela\ uma\ m\u00E1quina\ de\ ingressos\ que\ emite\r\n\ ingressos\ de\ pre\u00E7o\ fixo.\r\n\ O\ pre\u00E7o\ de\ um\ ingresso\ \u00E9\ definido\ atrav\u00E9s\ do\ construtor.\r\n\ Objetos\ verificam\ se\ o\ usu\u00E1rio\ informou\ quantidades\ de\r\n\ dinheiro\ que\ fazem\ sentido,\ e\ s\u00F3\ imprimir\ um\ ingresso\ se\r\n\ h\u00E1\ quantidade\ de\ dinheiro\ suficiente.\r\n\ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023.09.07\r\n\r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=custoIngresso
+comment1.target=MaquinaIngressos(int)
+comment1.text=\r\n\ Cria\ uma\ m\u00E1quina\ que\ emite\ ingressos\ de\ um\ dado\ pre\u00E7o.\r\n
+comment2.params=
+comment2.target=int\ obterPreco()
+comment2.text=\r\n\ Retorna\ o\ pre\u00E7o\ do\ ingresso.\r\n
+comment3.params=
+comment3.target=int\ obterSaldo()
+comment3.text=\r\n\ Retorna\ a\ quantidade\ de\ dinheiro\ j\u00E1\ inserida\ para\ o\r\n\ pr\u00F3ximo\ ingresso.\r\n
+comment4.params=quantidade
+comment4.target=void\ inserirDinheiro(int)
+comment4.text=\r\n\ Recebe\ uma\ quantidade\ de\ dinheiro\ de\ um\ cliente.\r\n\ Verifica\ se\ a\ quantidade\ passada\ faz\ sentido.\r\n
+comment5.params=
+comment5.target=void\ imprimirIngresso()
+comment5.text=\r\n\ Imprime\ um\ ingresso\ se\ usu\u00E1rio\ inseriu\ uma\ quantidade\ de\r\n\ dinheiro\ suficiente,\ reduz\ o\ saldo\ de\ acordo\ com\ o\ pre\u00E7o\r\n\ do\ ingresso.\r\n\ Imprime\ uma\ mensagem\ de\ erro\ se\ \u00E9\ necess\u00E1rio\ inserir\ mais\r\n\ dinheiro.\r\n
+comment6.params=
+comment6.target=int\ retornarTroco()
+comment6.text=\r\n\ Devolve\ o\ troco\ existente\ no\ saldo.\r\n\ O\ saldo\ \u00E9\ zerado.\r\n
+numComments=7
