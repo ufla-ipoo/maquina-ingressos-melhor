@@ -58,7 +58,7 @@ public class MaquinaIngressos
         }
         else {
             System.out.println("Informe uma quantidade positiva em vez de : " + 
-                                quantidade);
+                quantidade);
         }
     }
 
@@ -87,7 +87,7 @@ public class MaquinaIngressos
         }
         else {
             System.out.println("Você precisa inserir pelo menos mais : " +
-                               (preco - saldo) + " centavos.");
+                (preco - saldo) + " centavos.");
         }
     }
 
